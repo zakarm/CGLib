@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cglib"
+version = "0.1.0"
+description = "A lightweight Camera Geometry Library for accurate calibration, undistortion, and vision pipeline integration"
+authors = [{name = "Zakariae Mrabet", email = "zakariaemrabet48@gmail.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "opencv-python>=4.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/zakarm/cglib"
+Documentation = "https://github.com/zakarm/cglib/docs"
+Repository = "https://github.com/zakarm/cglib"
+```
+
+**`requirements.txt`:**
+```
+numpy>=1.20.0
+opencv-python>=4.5.0
+scipy>=1.7.0
+```
+
+**`requirements-dev.txt`:**
+```
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+```
